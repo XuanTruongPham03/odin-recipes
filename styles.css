@@ -173,3 +173,26 @@ p {
 .nav-home:hover {
     color: #b30000;
 }
+
+ol {
+    list-style: none;
+    counter-reset: step;
+    padding-left: 0;
+}
+
+ol li {
+    counter-increment: step;
+    margin-bottom: 2rem;
+    line-height: 1.6;
+    position: relative;
+}
+
+ol li::before {
+    content: "Step " counter(step);
+    display: block;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    font-size: 1.1rem;
+    color: #333;
+}
+
