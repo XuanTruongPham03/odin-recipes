@@ -1,16 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Recipes</title>
+    <link rel="stylesheet" href="./styles.css">
 </head>
+
 <body>
     <h1>Odin Recipes</h1>
-    <ul>
-        <li><h3><a href="./recipes/breaded-air-fryer-pork-chops.html">Breaded Air Fryer Pork Chops</a></h3></li>
-        <li><h3><a href="./recipes/easy-air-fryer-pork-chops.html">Easy Air Fryer Pork Chops</a></h3></li>
-        <li><h3><a href="./recipes/keto-pecan-crusted-pork-chops-in-the-air-fryer.html">Keto Pecan Crusted Pork Chops in the Air Fryer</a></h3></li>
-    </ul>
+    <div class="recipe-list">
+        <a class="recipe-card" href="./recipes/breaded-air-fryer-pork-chops.html">
+            <img src="./imgs/breaded-air-fryer-pork-chops.jpg" alt="Breaded Air Fryer Pork Chops">
+            <div class="overlay">
+                <span class="recipe-title">Breaded Air Fryer Pork Chops</span>
+            </div>
+        </a>
+        <a class="recipe-card" href="./recipes/keto-pecan-crusted-pork-chops-in-the-air-fryer.html">
+            <img src="./imgs/keto-pecan-crusted-pork-chops.jpg" alt="Keto Pecan Crusted Pork Chops">
+            <div class="overlay">
+                <span class="recipe-title">Keto Pecan Crusted Pork Chops in the Air Fryer</span>
+            </div>
+        </a>
+        <a class="recipe-card" href="./recipes/easy-air-fryer-pork-chops.html">
+            <img src="./imgs/easy-air-fryer-pork-chops.jpg" alt="Easy Air Fryer Pork Chops">
+            <div class="overlay">
+                <span class="recipe-title">Easy Air Fryer Pork Chops</span>
+            </div>
+        </a>
+    </div>
 </body>
+
 </html>
